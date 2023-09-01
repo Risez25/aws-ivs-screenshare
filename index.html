@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <div id="local-media"></div>
+    <div id="remote-media"></div>
+    <script src="https://web-broadcast.live-video.net/1.5.1/amazon-ivs-web-broadcast.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <h1>IVS Real-Time Streaming</h1>
+    <hr />
+    <label for="token">Token</label>
+    <input type="text" id="token" name="token" />
+    <button class="button" id="join-button">Join</button>
+    <button class="button" id="leave-button" style="display: none">
+      Leave
+    </button>
+    <button class="button" id="screenshare-button">Screenshare</button>
+    <hr />
+  </body>
+</html>
